@@ -1,0 +1,15 @@
+[submodule "upstream/lms-front"]
+	path = upstream/lms-front
+	url = https://github.com/guillermoscript/lms-front.git
+[submodule "upstream/lumina-lms"]
+	path = upstream/lumina-lms
+	url = https://github.com/authorTom/lumina-lms.git
+[submodule "upstream/moodle"]
+	path = upstream/moodle
+	url = https://github.com/moodle/moodle.git
+[submodule "upstream/deeptutor"]
+	path = upstream/deeptutor
+	url = https://github.com/HKUDS/DeepTutor.git
+[submodule "upstream/opentutor"]
+	path = upstream/opentutor
+	url = https://github.com/zijinz456/OpenTutor.git

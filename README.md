@@ -25,3 +25,7 @@ Head of Training, Instructor, Student and Customer. Role switch is a UI simulati
 ## Production gaps
 
 No backend, real authentication, tenant isolation, secure exams, authorized certification, tamper-proof audit, official syllabus completeness, AI model, proctoring, SCORM/xAPI or regulatory acceptance. Database schema remains a proposal. Never enter personal or restricted data. Do not rely on this demonstration for actual operations or qualifications.
+
+## Standalone presentation
+
+Download `demo.html` and open it in a desktop browser. It embeds the CSS, scripts and all public demo curriculum data; no server is needed. In the Head of Training dashboard, click **Load sample scenario** to populate explicitly simulated evidence and a non-official completion record. Browser storage behavior varies with local file URLs; JSON export remains available.

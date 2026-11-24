@@ -1,0 +1,1312 @@
+{
+  "version": "0.4.0",
+  "status": "draft; not exhaustive or official",
+  "sources": [
+    {
+      "id": "EU-01",
+      "authority": "EASA",
+      "title": "A1/A3 and A2",
+      "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-19528",
+      "review_status": "pending"
+    },
+    {
+      "id": "EU-02",
+      "authority": "EASA",
+      "title": "STS Attachment A",
+      "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-17416",
+      "review_status": "pending"
+    },
+    {
+      "id": "EU-03",
+      "authority": "EASA",
+      "title": "Specific category training",
+      "url": "https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-unmanned-aircraft-systems?erules-id=ERULES-1963177438-15602",
+      "review_status": "pending"
+    },
+    {
+      "id": "US-01",
+      "authority": "FAA",
+      "title": "FAA-S-ACS-10B",
+      "url": "https://www.faa.gov/training_testing/testing/acs",
+      "review_status": "pending"
+    },
+    {
+      "id": "CA-01",
+      "authority": "Transport Canada",
+      "title": "TP 15263",
+      "url": "https://tc.canada.ca/en/aviation/publications/knowledge-requirements-pilots-remotely-piloted-aircraft-systems-250-g-including-150-kg-basic-advanced-operations-tp-15263",
+      "review_status": "pending"
+    },
+    {
+      "id": "CA-02",
+      "authority": "Transport Canada",
+      "title": "TP 15530",
+      "url": "https://tc.canada.ca/en/aviation/publications/knowledge-requirements-pilots-remotely-piloted-aircraft-systems-level-1-complex-operations-tp-15530",
+      "review_status": "pending"
+    },
+    {
+      "id": "UK-01",
+      "authority": "UK CAA",
+      "title": "RPC levels and syllabus",
+      "url": "https://www.caa.co.uk/drones/specific-category/remote-pilot-qualifications/level-1-2-and-3-remote-pilot-certificates-and-gvc/",
+      "review_status": "pending"
+    },
+    {
+      "id": "SG-01",
+      "authority": "CAAS",
+      "title": "AC 101-4-1",
+      "url": "https://www.caas.gov.sg/resources/regulatory-requirements-and-guidelines/unmanned-aircraft/",
+      "review_status": "pending"
+    },
+    {
+      "id": "SG-02",
+      "authority": "CAAS",
+      "title": "AC 101-3-1",
+      "url": "https://www.caas.gov.sg/resources/regulatory-requirements-and-guidelines/unmanned-aircraft/",
+      "review_status": "pending"
+    },
+    {
+      "id": "ICAO-01",
+      "authority": "ICAO",
+      "title": "Doc 9868 — authorized access required",
+      "url": "https://store.icao.int/en/procedures-for-air-navigation-services-training-doc-9868",
+      "review_status": "pending"
+    },
+    {
+      "id": "NATO-01",
+      "authority": "NATO",
+      "title": "STANAG 4670 — register only",
+      "url": "https://quicksearch.dla.mil/qsdocdetails.aspx?ident_number=277342",
+      "review_status": "pending"
+    },
+    {
+      "id": "AU-01",
+      "authority": "CASA",
+      "title": "RePL training provider guidance",
+      "url": "https://www.casa.gov.au/drones/remotely-piloted-aircraft-operators-certificate/become-training-provider",
+      "review_status": "pending"
+    }
+  ],
+  "programs": [
+    {
+      "id": "UAS-EU-OPEN-001",
+      "status": "introductory practice"
+    },
+    {
+      "id": "EU-A2",
+      "status": "partial draft mapping"
+    },
+    {
+      "id": "EU-STS01",
+      "status": "partial draft mapping"
+    },
+    {
+      "id": "EU-STS02",
+      "status": "partial draft mapping"
+    },
+    {
+      "id": "US-P107",
+      "status": "unreviewed practice bank"
+    },
+    {
+      "id": "SG-UAPL",
+      "status": "partial draft mapping"
+    },
+    {
+      "id": "CA-BASIC",
+      "status": "partial draft mapping"
+    },
+    {
+      "id": "CA-ADV",
+      "status": "partial draft mapping"
+    },
+    {
+      "id": "CA-COMPLEX",
+      "status": "partial draft mapping"
+    },
+    {
+      "id": "UK-RPC1",
+      "status": "partial draft mapping"
+    },
+    {
+      "id": "UK-RPC2",
+      "status": "partial draft mapping"
+    },
+    {
+      "id": "UK-RPC3",
+      "status": "partial draft mapping"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "UAS-010-01",
+      "subject": "Aviation Regulations",
+      "objective": "Distinguish EU rules, national implementation and EASA guidance.",
+      "source_id": "EU-01",
+      "source_locator": "AMC1 UAS.OPEN.020(4)(b) and UAS.OPEN.040(3), subject (c)",
+      "course_ids": [
+        "UAS-EU-OPEN-001"
+      ],
+      "lesson_ids": [
+        "UAS-010-01"
+      ],
+      "question_ids": [
+        "Q-010-01",
+        "Q-010-02",
+        "Q-010-06"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "UAS-010-02",
+      "subject": "Aviation Regulations",
+      "objective": "Differentiate A1, A2 and A3 and identify applicable aircraft class and pilot competence.",
+      "source_id": "EU-01",
+      "source_locator": "AMC1 UAS.OPEN.020(4)(b) and UAS.OPEN.040(3), subject (c)",
+      "course_ids": [
+        "UAS-EU-OPEN-001"
+      ],
+      "lesson_ids": [
+        "UAS-010-02"
+      ],
+      "question_ids": [
+        "Q-010-03"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "UAS-010-03",
+      "subject": "Aviation Regulations",
+      "objective": "Distinguish operator and remote pilot responsibilities, registration and reporting.",
+      "source_id": "EU-01",
+      "source_locator": "AMC1 UAS.OPEN.020(4)(b) and UAS.OPEN.040(3), subject (c)",
+      "course_ids": [
+        "UAS-EU-OPEN-001"
+      ],
+      "lesson_ids": [
+        "UAS-010-03"
+      ],
+      "question_ids": [
+        "Q-010-04",
+        "Q-010-05"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "UAS-020-01",
+      "subject": "Air Safety",
+      "objective": "Recognise unsafe conditions, unsafe conduct and the need to stop.",
+      "source_id": "EU-01",
+      "source_locator": "AMC1 UAS.OPEN.020(4)(b) and UAS.OPEN.040(3), subject (a)",
+      "course_ids": [
+        "UAS-EU-OPEN-001"
+      ],
+      "lesson_ids": [
+        "UAS-020-01"
+      ],
+      "question_ids": [
+        "Q-020-01"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "UAS-020-02",
+      "subject": "Air Safety",
+      "objective": "Recognise uninvolved people, assemblies, and the duty to avoid collision.",
+      "source_id": "EU-01",
+      "source_locator": "AMC1 UAS.OPEN.020(4)(b) and UAS.OPEN.040(3), subject (a)",
+      "course_ids": [
+        "UAS-EU-OPEN-001"
+      ],
+      "lesson_ids": [
+        "UAS-020-02"
+      ],
+      "question_ids": [
+        "Q-020-02",
+        "Q-020-03"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "UAS-020-03",
+      "subject": "Air Safety",
+      "objective": "Explain VLOS, observation and awareness of the surrounding area.",
+      "source_id": "EU-01",
+      "source_locator": "AMC1 UAS.OPEN.020(4)(b) and UAS.OPEN.040(3), subject (a)",
+      "course_ids": [
+        "UAS-EU-OPEN-001"
+      ],
+      "lesson_ids": [
+        "UAS-020-03"
+      ],
+      "question_ids": [
+        "Q-020-04",
+        "Q-020-05"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "UAS-030-01",
+      "subject": "Airspace Restrictions",
+      "objective": "Identify the purpose of UAS geographical zones and their conditions.",
+      "source_id": "EU-01",
+      "source_locator": "AMC1 UAS.OPEN.020(4)(b) and UAS.OPEN.040(3), subject (b)",
+      "course_ids": [
+        "UAS-EU-OPEN-001"
+      ],
+      "lesson_ids": [
+        "UAS-030-01"
+      ],
+      "question_ids": [
+        "Q-030-01",
+        "Q-030-04"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "UAS-030-02",
+      "subject": "Airspace Restrictions",
+      "objective": "Locate current information from national authorities and distinguish it from informal maps.",
+      "source_id": "EU-01",
+      "source_locator": "AMC1 UAS.OPEN.020(4)(b) and UAS.OPEN.040(3), subject (b)",
+      "course_ids": [
+        "UAS-EU-OPEN-001"
+      ],
+      "lesson_ids": [
+        "UAS-030-02"
+      ],
+      "question_ids": [
+        "Q-030-02"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "UAS-030-03",
+      "subject": "Airspace Restrictions",
+      "objective": "Explain the limitations of geo-awareness functions.",
+      "source_id": "EU-01",
+      "source_locator": "AMC1 UAS.OPEN.020(4)(b) and UAS.OPEN.040(3), subject (b)",
+      "course_ids": [
+        "UAS-EU-OPEN-001"
+      ],
+      "lesson_ids": [
+        "UAS-030-03"
+      ],
+      "question_ids": [
+        "Q-030-03"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "UAS-040-01",
+      "subject": "Human Performance Limitations",
+      "objective": "Recognise effects of fatigue, illness, substances and medication.",
+      "source_id": "EU-01",
+      "source_locator": "AMC1 UAS.OPEN.020(4)(b) and UAS.OPEN.040(3), subject (d)",
+      "course_ids": [
+        "UAS-EU-OPEN-001"
+      ],
+      "lesson_ids": [
+        "UAS-040-01"
+      ],
+      "question_ids": [
+        "Q-040-01",
+        "Q-040-02"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "UAS-040-02",
+      "subject": "Human Performance Limitations",
+      "objective": "Recognise limits in distance, height, speed and orientation estimation.",
+      "source_id": "EU-01",
+      "source_locator": "AMC1 UAS.OPEN.020(4)(b) and UAS.OPEN.040(3), subject (d)",
+      "course_ids": [
+        "UAS-EU-OPEN-001"
+      ],
+      "lesson_ids": [
+        "UAS-040-02"
+      ],
+      "question_ids": [
+        "Q-040-03"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "UAS-040-03",
+      "subject": "Human Performance Limitations",
+      "objective": "Explain how environmental conditions affect awareness, including at night.",
+      "source_id": "EU-01",
+      "source_locator": "AMC1 UAS.OPEN.020(4)(b) and UAS.OPEN.040(3), subject (d)",
+      "course_ids": [
+        "UAS-EU-OPEN-001"
+      ],
+      "lesson_ids": [
+        "UAS-040-03"
+      ],
+      "question_ids": [
+        "Q-040-04"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "UAS-050-01",
+      "subject": "Operational Procedures",
+      "objective": "Identify the need to assess weather, site, equipment and persons before a civilian flight.",
+      "source_id": "EU-01",
+      "source_locator": "AMC1 UAS.OPEN.020(4)(b) and UAS.OPEN.040(3), subject (e)",
+      "course_ids": [
+        "UAS-EU-OPEN-001"
+      ],
+      "lesson_ids": [
+        "UAS-050-01"
+      ],
+      "question_ids": [
+        "Q-050-01",
+        "Q-050-06"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "UAS-050-02",
+      "subject": "Operational Procedures",
+      "objective": "Distinguish normal, contingency and emergency procedures in approved instructions.",
+      "source_id": "EU-01",
+      "source_locator": "AMC1 UAS.OPEN.020(4)(b) and UAS.OPEN.040(3), subject (e)",
+      "course_ids": [
+        "UAS-EU-OPEN-001"
+      ],
+      "lesson_ids": [
+        "UAS-050-02"
+      ],
+      "question_ids": [
+        "Q-050-02",
+        "Q-050-03"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "UAS-050-03",
+      "subject": "Operational Procedures",
+      "objective": "Explain the purpose of defect reporting, maintenance and flight records.",
+      "source_id": "EU-01",
+      "source_locator": "AMC1 UAS.OPEN.020(4)(b) and UAS.OPEN.040(3), subject (e)",
+      "course_ids": [
+        "UAS-EU-OPEN-001"
+      ],
+      "lesson_ids": [
+        "UAS-050-03"
+      ],
+      "question_ids": [
+        "Q-050-04",
+        "Q-050-05"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "UAS-060-01",
+      "subject": "UAS General Knowledge",
+      "objective": "Identify major aircraft components and factors affecting flight.",
+      "source_id": "EU-01",
+      "source_locator": "AMC1 UAS.OPEN.020(4)(b) and UAS.OPEN.040(3), subject (f)",
+      "course_ids": [
+        "UAS-EU-OPEN-001"
+      ],
+      "lesson_ids": [
+        "UAS-060-01"
+      ],
+      "question_ids": [
+        "Q-060-01"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "UAS-060-02",
+      "subject": "UAS General Knowledge",
+      "objective": "Explain the role and limitations of command and control and automatic functions.",
+      "source_id": "EU-01",
+      "source_locator": "AMC1 UAS.OPEN.020(4)(b) and UAS.OPEN.040(3), subject (f)",
+      "course_ids": [
+        "UAS-EU-OPEN-001"
+      ],
+      "lesson_ids": [
+        "UAS-060-02"
+      ],
+      "question_ids": [
+        "Q-060-02",
+        "Q-060-03"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "UAS-060-03",
+      "subject": "UAS General Knowledge",
+      "objective": "Recognise battery, rotor and maintenance hazards and the purpose of technical features.",
+      "source_id": "EU-01",
+      "source_locator": "AMC1 UAS.OPEN.020(4)(b) and UAS.OPEN.040(3), subject (f)",
+      "course_ids": [
+        "UAS-EU-OPEN-001"
+      ],
+      "lesson_ids": [
+        "UAS-060-03"
+      ],
+      "question_ids": [
+        "Q-060-04",
+        "Q-060-05"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "UAS-070-01",
+      "subject": "Privacy and Data Protection",
+      "objective": "Recognise when images or other data can affect personal privacy.",
+      "source_id": "EU-01",
+      "source_locator": "AMC1 UAS.OPEN.020(4)(b) and UAS.OPEN.040(3), subject (g)",
+      "course_ids": [
+        "UAS-EU-OPEN-001"
+      ],
+      "lesson_ids": [
+        "UAS-070-01"
+      ],
+      "question_ids": [
+        "Q-070-01"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "UAS-070-02",
+      "subject": "Privacy and Data Protection",
+      "objective": "Identify core GDPR principles and distinguish them from aviation authorization.",
+      "source_id": "EU-01",
+      "source_locator": "AMC1 UAS.OPEN.020(4)(b) and UAS.OPEN.040(3), subject (g)",
+      "course_ids": [
+        "UAS-EU-OPEN-001"
+      ],
+      "lesson_ids": [
+        "UAS-070-02"
+      ],
+      "question_ids": [
+        "Q-070-02",
+        "Q-070-03"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "UAS-070-03",
+      "subject": "Privacy and Data Protection",
+      "objective": "Explain access, retention and disclosure responsibilities.",
+      "source_id": "EU-01",
+      "source_locator": "AMC1 UAS.OPEN.020(4)(b) and UAS.OPEN.040(3), subject (g)",
+      "course_ids": [
+        "UAS-EU-OPEN-001"
+      ],
+      "lesson_ids": [
+        "UAS-070-03"
+      ],
+      "question_ids": [
+        "Q-070-04"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "UAS-080-01",
+      "subject": "Insurance",
+      "objective": "Explain the difference between legal liability and insurance.",
+      "source_id": "EU-01",
+      "source_locator": "AMC1 UAS.OPEN.020(4)(b) and UAS.OPEN.040(3), subject (h)",
+      "course_ids": [
+        "UAS-EU-OPEN-001"
+      ],
+      "lesson_ids": [
+        "UAS-080-01"
+      ],
+      "question_ids": [
+        "Q-080-01"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "UAS-080-02",
+      "subject": "Insurance",
+      "objective": "Recognise EU and national insurance requirements may vary.",
+      "source_id": "EU-01",
+      "source_locator": "AMC1 UAS.OPEN.020(4)(b) and UAS.OPEN.040(3), subject (h)",
+      "course_ids": [
+        "UAS-EU-OPEN-001"
+      ],
+      "lesson_ids": [
+        "UAS-080-02"
+      ],
+      "question_ids": [
+        "Q-080-02"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "UAS-080-03",
+      "subject": "Insurance",
+      "objective": "Identify why coverage and exclusions need review.",
+      "source_id": "EU-01",
+      "source_locator": "AMC1 UAS.OPEN.020(4)(b) and UAS.OPEN.040(3), subject (h)",
+      "course_ids": [
+        "UAS-EU-OPEN-001"
+      ],
+      "lesson_ids": [
+        "UAS-080-03"
+      ],
+      "question_ids": [
+        "Q-080-03"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "UAS-090-01",
+      "subject": "Security",
+      "objective": "Distinguish accidental safety hazards from deliberate interference or misuse.",
+      "source_id": "EU-01",
+      "source_locator": "AMC1 UAS.OPEN.020(4)(b) and UAS.OPEN.040(3), subject (i)",
+      "course_ids": [
+        "UAS-EU-OPEN-001"
+      ],
+      "lesson_ids": [
+        "UAS-090-01"
+      ],
+      "question_ids": [
+        "Q-090-01"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "UAS-090-02",
+      "subject": "Security",
+      "objective": "Recognise the need to protect accounts, records and equipment access.",
+      "source_id": "EU-01",
+      "source_locator": "AMC1 UAS.OPEN.020(4)(b) and UAS.OPEN.040(3), subject (i)",
+      "course_ids": [
+        "UAS-EU-OPEN-001"
+      ],
+      "lesson_ids": [
+        "UAS-090-02"
+      ],
+      "question_ids": [
+        "Q-090-02"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "UAS-090-03",
+      "subject": "Security",
+      "objective": "Recognise that security restrictions can differ between jurisdictions.",
+      "source_id": "EU-01",
+      "source_locator": "AMC1 UAS.OPEN.020(4)(b) and UAS.OPEN.040(3), subject (i)",
+      "course_ids": [
+        "UAS-EU-OPEN-001"
+      ],
+      "lesson_ids": [
+        "UAS-090-03"
+      ],
+      "question_ids": [
+        "Q-090-03"
+      ],
+      "review_status": "pending"
+    },
+    {
+      "id": "EU-A2-LO-001",
+      "objective": "Assess weather-related limitations",
+      "source_id": "EU-01",
+      "course_ids": [
+        "EU-A2"
+      ],
+      "official_code_candidate": null,
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "EU-A2-LO-002",
+      "objective": "Select appropriate forecast sources",
+      "source_id": "EU-01",
+      "course_ids": [
+        "EU-A2"
+      ],
+      "official_code_candidate": null,
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "EU-A2-LO-003",
+      "objective": "Interpret manufacturer limits",
+      "source_id": "EU-01",
+      "course_ids": [
+        "EU-A2"
+      ],
+      "official_code_candidate": null,
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "EU-A2-LO-004",
+      "objective": "Explain effects of load distribution",
+      "source_id": "EU-01",
+      "course_ids": [
+        "EU-A2"
+      ],
+      "official_code_candidate": null,
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "EU-A2-LO-005",
+      "objective": "Recognise unsafe payload attachment",
+      "source_id": "EU-01",
+      "course_ids": [
+        "EU-A2"
+      ],
+      "official_code_candidate": null,
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "EU-A2-LO-006",
+      "objective": "Explain safe battery handling",
+      "source_id": "EU-01",
+      "course_ids": [
+        "EU-A2"
+      ],
+      "official_code_candidate": null,
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "EU-A2-LO-007",
+      "objective": "Explain purpose of reduced-speed functions",
+      "source_id": "EU-01",
+      "course_ids": [
+        "EU-A2"
+      ],
+      "official_code_candidate": null,
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "EU-A2-LO-008",
+      "objective": "Interpret civil separation guidance",
+      "source_id": "EU-01",
+      "course_ids": [
+        "EU-A2"
+      ],
+      "official_code_candidate": null,
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "EU-A2-LO-009",
+      "objective": "Explain environmental effects on performance",
+      "source_id": "EU-01",
+      "course_ids": [
+        "EU-A2"
+      ],
+      "official_code_candidate": null,
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "EU-A2-LO-010",
+      "objective": "Identify reasons to postpone civil flight",
+      "source_id": "EU-01",
+      "course_ids": [
+        "EU-A2"
+      ],
+      "official_code_candidate": null,
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "EU-A2-LO-011",
+      "objective": "Evaluate bystander safety risk",
+      "source_id": "EU-01",
+      "course_ids": [
+        "EU-A2"
+      ],
+      "official_code_candidate": null,
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "EU-A2-LO-012",
+      "objective": "Compare weather with manufacturer limits",
+      "source_id": "EU-01",
+      "course_ids": [
+        "EU-A2"
+      ],
+      "official_code_candidate": null,
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "EU-STS-LO-001",
+      "objective": "Distinguish authority, operator and pilot responsibilities",
+      "source_id": "EU-02",
+      "course_ids": [
+        "EU-STS01",
+        "EU-STS02"
+      ],
+      "official_code_candidate": null,
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "EU-STS-LO-002",
+      "objective": "Recognise fatigue and workload",
+      "source_id": "EU-02",
+      "course_ids": [
+        "EU-STS01",
+        "EU-STS02"
+      ],
+      "official_code_candidate": null,
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "EU-STS-LO-003",
+      "objective": "Identify compliance documentation",
+      "source_id": "EU-02",
+      "course_ids": [
+        "EU-STS01",
+        "EU-STS02"
+      ],
+      "official_code_candidate": null,
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "EU-STS-LO-004",
+      "objective": "Explain protection of uninvolved persons",
+      "source_id": "EU-02",
+      "course_ids": [
+        "EU-STS01",
+        "EU-STS02"
+      ],
+      "official_code_candidate": null,
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "EU-STS-LO-005",
+      "objective": "Identify required manufacturer documentation",
+      "source_id": "EU-02",
+      "course_ids": [
+        "EU-STS01",
+        "EU-STS02"
+      ],
+      "official_code_candidate": null,
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "EU-STS-LO-006",
+      "objective": "Recognise adverse weather",
+      "source_id": "EU-02",
+      "course_ids": [
+        "EU-STS01",
+        "EU-STS02"
+      ],
+      "official_code_candidate": null,
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "EU-STS-LO-007",
+      "objective": "Interpret published aircraft limitations",
+      "source_id": "EU-02",
+      "course_ids": [
+        "EU-STS01",
+        "EU-STS02"
+      ],
+      "official_code_candidate": null,
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "EU-STS-LO-008",
+      "objective": "Explain importance of airspace separation",
+      "source_id": "EU-02",
+      "course_ids": [
+        "EU-STS01",
+        "EU-STS02"
+      ],
+      "official_code_candidate": null,
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "FAA-LO-001",
+      "objective": "Determine whether Part 107 applies",
+      "source_id": "US-01",
+      "course_ids": [
+        "US-P107"
+      ],
+      "official_code_candidate": "UA.I.A.K1",
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "FAA-LO-002",
+      "objective": "Interpret Part 107 terms",
+      "source_id": "US-01",
+      "course_ids": [
+        "US-P107"
+      ],
+      "official_code_candidate": "UA.I.A.K2",
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "FAA-LO-003",
+      "objective": "Explain consequences of falsified records",
+      "source_id": "US-01",
+      "course_ids": [
+        "US-P107"
+      ],
+      "official_code_candidate": "UA.I.A.K3",
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "FAA-LO-004",
+      "objective": "Identify accident reporting provisions",
+      "source_id": "US-01",
+      "course_ids": [
+        "US-P107"
+      ],
+      "official_code_candidate": "UA.I.A.K4",
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "FAA-LO-005",
+      "objective": "Explain duty to demonstrate compliance",
+      "source_id": "US-01",
+      "course_ids": [
+        "US-P107"
+      ],
+      "official_code_candidate": "UA.I.A.K5",
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "FAA-LO-006",
+      "objective": "Distinguish regulatory aircraft categories",
+      "source_id": "US-01",
+      "course_ids": [
+        "US-P107"
+      ],
+      "official_code_candidate": "UA.I.A.K6",
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "FAA-LO-007",
+      "objective": "Identify record retention obligations",
+      "source_id": "US-01",
+      "course_ids": [
+        "US-P107"
+      ],
+      "official_code_candidate": "UA.I.A.K7",
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "FAA-LO-008",
+      "objective": "Identify rules for previously manufactured aircraft",
+      "source_id": "US-01",
+      "course_ids": [
+        "US-P107"
+      ],
+      "official_code_candidate": "UA.I.A.K8",
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "SG-LO-001",
+      "objective": "Distinguish aircraft from complete systems",
+      "source_id": "SG-01",
+      "course_ids": [
+        "SG-UAPL"
+      ],
+      "official_code_candidate": "010 01 01",
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "SG-LO-002",
+      "objective": "Compare aircraft categories",
+      "source_id": "SG-01",
+      "course_ids": [
+        "SG-UAPL"
+      ],
+      "official_code_candidate": "010 01 02",
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "SG-LO-003",
+      "objective": "Compare representative civil applications",
+      "source_id": "SG-01",
+      "course_ids": [
+        "SG-UAPL"
+      ],
+      "official_code_candidate": "010 01 03",
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "SG-LO-004",
+      "objective": "Identify major system groups",
+      "source_id": "SG-01",
+      "course_ids": [
+        "SG-UAPL"
+      ],
+      "official_code_candidate": "010 02 01",
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "SG-LO-005",
+      "objective": "Relate components to system functions",
+      "source_id": "SG-01",
+      "course_ids": [
+        "SG-UAPL"
+      ],
+      "official_code_candidate": "010 02 02",
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "SG-LO-006",
+      "objective": "Explain importance of reliable communication",
+      "source_id": "SG-01",
+      "course_ids": [
+        "SG-UAPL"
+      ],
+      "official_code_candidate": "010 02 03",
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "SG-LO-007",
+      "objective": "Recognise visible defects",
+      "source_id": "SG-01",
+      "course_ids": [
+        "SG-UAPL"
+      ],
+      "official_code_candidate": "010 02 04",
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "CA-01-LO-001",
+      "objective": "Explain legal obligations",
+      "source_id": "CA-01",
+      "course_ids": [
+        "CA-BASIC",
+        "CA-ADV"
+      ],
+      "official_code_candidate": null,
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "CA-01-LO-002",
+      "objective": "Recognise aircraft and propulsion limitations",
+      "source_id": "CA-01",
+      "course_ids": [
+        "CA-BASIC",
+        "CA-ADV"
+      ],
+      "official_code_candidate": null,
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "CA-01-LO-003",
+      "objective": "Identify human factors",
+      "source_id": "CA-01",
+      "course_ids": [
+        "CA-BASIC",
+        "CA-ADV"
+      ],
+      "official_code_candidate": null,
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "CA-01-LO-004",
+      "objective": "Interpret weather information",
+      "source_id": "CA-01",
+      "course_ids": [
+        "CA-BASIC",
+        "CA-ADV"
+      ],
+      "official_code_candidate": null,
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "CA-01-LO-005",
+      "objective": "Identify relevant chart information",
+      "source_id": "CA-01",
+      "course_ids": [
+        "CA-BASIC",
+        "CA-ADV"
+      ],
+      "official_code_candidate": null,
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "CA-01-LO-006",
+      "objective": "Recognise required documentation and checks",
+      "source_id": "CA-01",
+      "course_ids": [
+        "CA-BASIC",
+        "CA-ADV"
+      ],
+      "official_code_candidate": null,
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "CA-01-LO-007",
+      "objective": "Explain basic forces of flight",
+      "source_id": "CA-01",
+      "course_ids": [
+        "CA-BASIC",
+        "CA-ADV"
+      ],
+      "official_code_candidate": null,
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "CA-01-LO-008",
+      "objective": "Recognise importance of clear communications",
+      "source_id": "CA-01",
+      "course_ids": [
+        "CA-BASIC",
+        "CA-ADV"
+      ],
+      "official_code_candidate": null,
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "CA-02-LO-001",
+      "objective": "Explain legal obligations",
+      "source_id": "CA-02",
+      "course_ids": [
+        "CA-COMPLEX"
+      ],
+      "official_code_candidate": null,
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "CA-02-LO-002",
+      "objective": "Recognise aircraft and propulsion limitations",
+      "source_id": "CA-02",
+      "course_ids": [
+        "CA-COMPLEX"
+      ],
+      "official_code_candidate": null,
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "CA-02-LO-003",
+      "objective": "Identify human factors",
+      "source_id": "CA-02",
+      "course_ids": [
+        "CA-COMPLEX"
+      ],
+      "official_code_candidate": null,
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "CA-02-LO-004",
+      "objective": "Interpret weather information",
+      "source_id": "CA-02",
+      "course_ids": [
+        "CA-COMPLEX"
+      ],
+      "official_code_candidate": null,
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "CA-02-LO-005",
+      "objective": "Identify relevant chart information",
+      "source_id": "CA-02",
+      "course_ids": [
+        "CA-COMPLEX"
+      ],
+      "official_code_candidate": null,
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "CA-02-LO-006",
+      "objective": "Recognise required documentation and checks",
+      "source_id": "CA-02",
+      "course_ids": [
+        "CA-COMPLEX"
+      ],
+      "official_code_candidate": null,
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "CA-02-LO-007",
+      "objective": "Explain basic forces of flight",
+      "source_id": "CA-02",
+      "course_ids": [
+        "CA-COMPLEX"
+      ],
+      "official_code_candidate": null,
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "CA-02-LO-008",
+      "objective": "Recognise importance of clear communications",
+      "source_id": "CA-02",
+      "course_ids": [
+        "CA-COMPLEX"
+      ],
+      "official_code_candidate": null,
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "UK-RPC-LO-001",
+      "objective": "Identify legal responsibilities",
+      "source_id": "UK-01",
+      "course_ids": [
+        "UK-RPC1",
+        "UK-RPC2",
+        "UK-RPC3"
+      ],
+      "official_code_candidate": null,
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "UK-RPC-LO-002",
+      "objective": "Interpret manufacturer limitations",
+      "source_id": "UK-01",
+      "course_ids": [
+        "UK-RPC1",
+        "UK-RPC2",
+        "UK-RPC3"
+      ],
+      "official_code_candidate": null,
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "UK-RPC-LO-003",
+      "objective": "Recognise human performance limitations",
+      "source_id": "UK-01",
+      "course_ids": [
+        "UK-RPC1",
+        "UK-RPC2",
+        "UK-RPC3"
+      ],
+      "official_code_candidate": null,
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "UK-RPC-LO-004",
+      "objective": "Identify adverse weather",
+      "source_id": "UK-01",
+      "course_ids": [
+        "UK-RPC1",
+        "UK-RPC2",
+        "UK-RPC3"
+      ],
+      "official_code_candidate": null,
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    },
+    {
+      "id": "UK-RPC-LO-005",
+      "objective": "Explain documented procedures and records",
+      "source_id": "UK-01",
+      "course_ids": [
+        "UK-RPC1",
+        "UK-RPC2",
+        "UK-RPC3"
+      ],
+      "official_code_candidate": null,
+      "review_status": "pending",
+      "lesson_ids": [],
+      "question_ids": []
+    }
+  ]
+}

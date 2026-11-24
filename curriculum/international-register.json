@@ -1,0 +1,465 @@
+{
+  "version": "0.2.0",
+  "as_of": "2026-11-24",
+  "qualifications": [
+    {
+      "id": "QUAL-001",
+      "jurisdiction": "EU/EASA",
+      "authority": "National authority",
+      "name": "A1/A3",
+      "kind": "Proof of online training",
+      "course": "UAS-EU-OPEN-001",
+      "source": "https://eur-lex.europa.eu/eli/reg_impl/2019/947",
+      "note": "40 MCQ, 75%; official certificate not issued by prototype."
+    },
+    {
+      "id": "QUAL-002",
+      "jurisdiction": "EU/EASA",
+      "authority": "National authority",
+      "name": "A2 CofC",
+      "kind": "Competency certificate",
+      "course": "UAS-EU-OPEN-002",
+      "source": "https://eur-lex.europa.eu/eli/reg_impl/2019/947",
+      "note": "A1/A3, practical self-training declaration and additional theory exam."
+    },
+    {
+      "id": "QUAL-003",
+      "jurisdiction": "EU/EASA",
+      "authority": "National authority",
+      "name": "STS theory",
+      "kind": "Theoretical knowledge certificate",
+      "course": "UAS-EU-STS-TK",
+      "source": "https://eur-lex.europa.eu/eli/reg_impl/2019/947",
+      "note": "Common theory for standard scenarios; practical accreditation separate."
+    },
+    {
+      "id": "QUAL-004",
+      "jurisdiction": "EU/EASA",
+      "authority": "Recognised entity or eligible declared operator",
+      "name": "STS-01 practical",
+      "kind": "Practical training accreditation",
+      "course": "UAS-EU-STS-01",
+      "source": "https://eur-lex.europa.eu/eli/reg_impl/2019/947",
+      "note": "Subject to applicable national rules; no practical course in prototype."
+    },
+    {
+      "id": "QUAL-005",
+      "jurisdiction": "EU/EASA",
+      "authority": "Recognised entity or eligible declared operator",
+      "name": "STS-02 practical",
+      "kind": "Practical training accreditation",
+      "course": "UAS-EU-STS-02",
+      "source": "https://eur-lex.europa.eu/eli/reg_impl/2019/947",
+      "note": "Subject to applicable national rules; no practical course in prototype."
+    },
+    {
+      "id": "QUAL-006",
+      "jurisdiction": "EU/EASA",
+      "authority": "Competent authority / operator",
+      "name": "PDRA competency",
+      "kind": "Operation-specific competence, not a licence",
+      "course": "UAS-EU-SPEC-PDRA",
+      "source": "https://www.easa.europa.eu/en/domains/drones-air-mobility/operating-drone",
+      "note": "Training requirements depend on applicable operational authorisation."
+    },
+    {
+      "id": "QUAL-007",
+      "jurisdiction": "EU/EASA",
+      "authority": "Competent authority / operator",
+      "name": "SORA competency",
+      "kind": "Operation-specific competence, not a licence",
+      "course": "UAS-EU-SPEC-SORA",
+      "source": "https://www.easa.europa.eu/en/domains/drones-air-mobility/operating-drone",
+      "note": "Training requirements depend on applicable operational authorisation."
+    },
+    {
+      "id": "QUAL-008",
+      "jurisdiction": "EU/EASA",
+      "authority": "Competent authority",
+      "name": "Certified category remote pilot licence",
+      "kind": "Licensing pathway",
+      "course": "UAS-EU-CERT",
+      "source": "https://www.easa.europa.eu/en/domains/drones-air-mobility/operating-drone",
+      "note": "Verify applicable implementing rules before designing a course."
+    },
+    {
+      "id": "QUAL-009",
+      "jurisdiction": "UK",
+      "authority": "CAA / approved provider",
+      "name": "Flyer ID",
+      "kind": "Proof of theory test",
+      "course": "UAS-UK-Flyer-ID",
+      "source": "https://www.caa.co.uk/drones/specific-category/remote-pilot-qualifications/",
+      "note": "GVC issuance scheduled to end 2027-12-31; verify privileges and current provider requirements."
+    },
+    {
+      "id": "QUAL-010",
+      "jurisdiction": "UK",
+      "authority": "CAA / approved provider",
+      "name": "A2 CofC",
+      "kind": "Competency certificate",
+      "course": "UAS-UK-A2-CofC",
+      "source": "https://www.caa.co.uk/drones/specific-category/remote-pilot-qualifications/",
+      "note": "GVC issuance scheduled to end 2027-12-31; verify privileges and current provider requirements."
+    },
+    {
+      "id": "QUAL-011",
+      "jurisdiction": "UK",
+      "authority": "CAA / approved provider",
+      "name": "GVC",
+      "kind": "Transitional certificate",
+      "course": "UAS-UK-GVC",
+      "source": "https://www.caa.co.uk/drones/specific-category/remote-pilot-qualifications/",
+      "note": "GVC issuance scheduled to end 2027-12-31; verify privileges and current provider requirements."
+    },
+    {
+      "id": "QUAL-012",
+      "jurisdiction": "UK",
+      "authority": "CAA / approved provider",
+      "name": "RPC-L1",
+      "kind": "Remote pilot certificate",
+      "course": "UAS-UK-RPC-L1",
+      "source": "https://www.caa.co.uk/drones/specific-category/remote-pilot-qualifications/",
+      "note": "GVC issuance scheduled to end 2027-12-31; verify privileges and current provider requirements."
+    },
+    {
+      "id": "QUAL-013",
+      "jurisdiction": "UK",
+      "authority": "CAA / approved provider",
+      "name": "RPC-L2",
+      "kind": "Remote pilot certificate",
+      "course": "UAS-UK-RPC-L2",
+      "source": "https://www.caa.co.uk/drones/specific-category/remote-pilot-qualifications/",
+      "note": "GVC issuance scheduled to end 2027-12-31; verify privileges and current provider requirements."
+    },
+    {
+      "id": "QUAL-014",
+      "jurisdiction": "UK",
+      "authority": "CAA / approved provider",
+      "name": "RPC-L3",
+      "kind": "Remote pilot certificate",
+      "course": "UAS-UK-RPC-L3",
+      "source": "https://www.caa.co.uk/drones/specific-category/remote-pilot-qualifications/",
+      "note": "GVC issuance scheduled to end 2027-12-31; verify privileges and current provider requirements."
+    },
+    {
+      "id": "QUAL-015",
+      "jurisdiction": "US",
+      "authority": "FAA",
+      "name": "TRUST",
+      "kind": "Recreational safety test proof",
+      "course": "UAS-US-TRUST",
+      "source": "https://www.faa.gov/uas/recreational_flyers/knowledge_test_updates",
+      "note": "Not a professional licence."
+    },
+    {
+      "id": "QUAL-016",
+      "jurisdiction": "US",
+      "authority": "FAA",
+      "name": "Part 107 Remote Pilot Certificate",
+      "kind": "Remote pilot certificate",
+      "course": "UAS-US-P107",
+      "source": "https://www.faa.gov/uas/commercial_operators/become_a_drone_pilot",
+      "note": "Independent practice questions; official testing separate."
+    },
+    {
+      "id": "QUAL-017",
+      "jurisdiction": "Canada",
+      "authority": "Transport Canada",
+      "name": "Basic Operations",
+      "kind": "Pilot certificate",
+      "course": "UAS-CA-Basic",
+      "source": "https://tc.canada.ca/en/aviation/drone-safety/drone-pilot-licensing",
+      "note": "Check exam, recency and flight review requirements."
+    },
+    {
+      "id": "QUAL-018",
+      "jurisdiction": "Canada",
+      "authority": "Transport Canada",
+      "name": "Advanced Operations",
+      "kind": "Pilot certificate",
+      "course": "UAS-CA-Advanced",
+      "source": "https://tc.canada.ca/en/aviation/drone-safety/drone-pilot-licensing",
+      "note": "Check exam, recency and flight review requirements."
+    },
+    {
+      "id": "QUAL-019",
+      "jurisdiction": "Canada",
+      "authority": "Transport Canada",
+      "name": "Level 1 Complex Operations",
+      "kind": "Pilot certificate",
+      "course": "UAS-CA-Level",
+      "source": "https://tc.canada.ca/en/aviation/drone-safety/drone-pilot-licensing",
+      "note": "Check exam, recency and flight review requirements."
+    },
+    {
+      "id": "QUAL-020",
+      "jurisdiction": "Canada",
+      "authority": "Transport Canada",
+      "name": "Flight Reviewer Rating",
+      "kind": "Rating",
+      "course": "UAS-CA-Flight",
+      "source": "https://tc.canada.ca/en/aviation/drone-safety/drone-pilot-licensing",
+      "note": "Check exam, recency and flight review requirements."
+    },
+    {
+      "id": "QUAL-021",
+      "jurisdiction": "Australia",
+      "authority": "CASA",
+      "name": "RePL",
+      "kind": "Remote pilot licence",
+      "course": "UAS-AU-REPL",
+      "source": "https://www.casa.gov.au/resources-and-education/online-services/digital-licences-and-certificates",
+      "note": "Type and weight limitations apply."
+    },
+    {
+      "id": "QUAL-022",
+      "jurisdiction": "Australia",
+      "authority": "CASA",
+      "name": "Operator Accreditation",
+      "kind": "Accreditation, excluded category",
+      "course": "UAS-AU-ACC",
+      "source": "https://www.casa.gov.au/resources-and-education/online-services/digital-licences-and-certificates",
+      "note": "Not equivalent to RePL."
+    },
+    {
+      "id": "QUAL-023",
+      "jurisdiction": "New Zealand",
+      "authority": "CAA",
+      "name": "Parts 101/102 training qualification",
+      "kind": "Recognised training evidence",
+      "course": "UAS-NZ",
+      "source": "https://www.aviation.govt.nz/drones/training/",
+      "note": "Privileges depend on applicable operation and certification."
+    },
+    {
+      "id": "QUAL-024",
+      "jurisdiction": "Singapore",
+      "authority": "CAAS",
+      "name": "UA Basic Training Certificate",
+      "kind": "Training certificate",
+      "course": "UAS-SG-BASIC",
+      "source": "https://www.caas.gov.sg/unmanned-aircraft/ua-basic-training/",
+      "note": "Applicable to specified recreational/educational operations."
+    },
+    {
+      "id": "QUAL-025",
+      "jurisdiction": "Singapore",
+      "authority": "CAAS",
+      "name": "UAPL",
+      "kind": "Pilot licence",
+      "course": "UAS-SG-UAPL",
+      "source": "https://www.caas.gov.sg/unmanned-aircraft/unmanned-aircraft-pilot-licence/",
+      "note": "Subject to licence class and operation."
+    },
+    {
+      "id": "QUAL-026",
+      "jurisdiction": "Japan",
+      "authority": "MLIT",
+      "name": "Class I",
+      "kind": "Remote pilot certificate",
+      "course": "UAS-JP-I",
+      "source": "https://www.mlit.go.jp/koku/level4/license/en/",
+      "note": "Aircraft type and limitations apply."
+    },
+    {
+      "id": "QUAL-027",
+      "jurisdiction": "Japan",
+      "authority": "MLIT",
+      "name": "Class II",
+      "kind": "Remote pilot certificate",
+      "course": "UAS-JP-I",
+      "source": "https://www.mlit.go.jp/koku/level4/license/en/",
+      "note": "Aircraft type and limitations apply."
+    },
+    {
+      "id": "QUAL-028",
+      "jurisdiction": "India",
+      "authority": "DGCA",
+      "name": "Remote Pilot Certificate",
+      "kind": "Pilot certificate",
+      "course": "UAS-IN-RPC",
+      "source": "https://www.dgca.gov.in/",
+      "note": "Approved RPTO pathway; verify current Drone Rules."
+    },
+    {
+      "id": "QUAL-029",
+      "jurisdiction": "International",
+      "authority": "ICAO member state authority",
+      "name": "RPL",
+      "kind": "Remote pilot licence framework",
+      "course": "UAS-ICAO-RPL",
+      "source": "https://www.icao.int/emerging-aviation-issues-increased-use-unmanned-aircraft-systems-uas-and-remotely-piloted-1",
+      "note": "Annex 1 framework; national implementation required."
+    },
+    {
+      "id": "QUAL-030",
+      "jurisdiction": "Defence",
+      "authority": "National competent authority",
+      "name": "NATO training compliance",
+      "kind": "Standards reference, not a licence",
+      "course": "REGISTER-ONLY",
+      "source": "https://quicksearch.dla.mil/qsdocdetails.aspx?ident_number=277342",
+      "note": "Authorised document access and authority validation required; no defence training content."
+    },
+    {
+      "id": "QUAL-031",
+      "jurisdiction": "Manufacturer",
+      "authority": "Authorised manufacturer",
+      "name": "Equipment qualification",
+      "kind": "Internal qualification",
+      "course": "REGISTER-ONLY",
+      "source": "https://www.easa.europa.eu/en/domains/drones-air-mobility/operating-drone",
+      "note": "Not a statutory licence; approved documentation and scope required."
+    }
+  ],
+  "question_sources": [
+    {
+      "name": "FAA Drone Trainer",
+      "url": "https://github.com/ullbergm/faa-drone-trainer",
+      "scope": "FAA Part 107",
+      "status": "MIT confirmed; importer prepared; review required",
+      "advertised_count": 279
+    },
+    {
+      "name": "EASA Exam Practice",
+      "url": "https://github.com/pors/EASA-exam-practice",
+      "scope": "EASA",
+      "status": "License unresolved; no import",
+      "advertised_count": null
+    },
+    {
+      "name": "FAA UAG sample",
+      "url": "https://www.faa.gov/sites/faa.gov/files/training_testing/testing/test_questions/uag_questions.pdf",
+      "scope": "FAA",
+      "status": "Public samples; check each asset and third-party rights",
+      "advertised_count": null
+    },
+    {
+      "name": "Serbian CAD",
+      "url": "https://cad.gov.rs/strana/23351?lang=en",
+      "scope": "Serbia",
+      "status": "Official resource; rights and currency pending",
+      "advertised_count": null
+    },
+    {
+      "name": "Taiwan CAA",
+      "url": "https://www.caa.gov.tw/Article.aspx?a=3833&lang=1",
+      "scope": "Taiwan",
+      "status": "Official resource; rights pending",
+      "advertised_count": null
+    },
+    {
+      "name": "CASA",
+      "url": "https://www.casa.gov.au/",
+      "scope": "Australia",
+      "status": "Official resource; sample rights pending",
+      "advertised_count": null
+    },
+    {
+      "name": "ANAC",
+      "url": "https://rp.anac.pt",
+      "scope": "EASA Portugal",
+      "status": "Official training platform; no extraction of protected assessments",
+      "advertised_count": null
+    },
+    {
+      "name": "Austro Control",
+      "url": "https://online-kurs.dronespace.at/einstieg/",
+      "scope": "EASA Austria",
+      "status": "Official training platform; no extraction of protected assessments",
+      "advertised_count": null
+    },
+    {
+      "name": "AIRCADEMY",
+      "url": "https://aircademy.com/",
+      "scope": "EASA / international",
+      "status": "Acquisition lead; licensing and availability to verify",
+      "advertised_count": null
+    },
+    {
+      "name": "Exam Aero",
+      "url": "https://www.examaero.com/fr/examen-uav-telepilote-drone/",
+      "scope": "Europe",
+      "status": "Acquisition lead; licensing and availability to verify",
+      "advertised_count": null
+    },
+    {
+      "name": "Eu Quero Voar",
+      "url": "https://euquerovoar.pt/",
+      "scope": "Portugal",
+      "status": "Acquisition lead; licensing and availability to verify",
+      "advertised_count": null
+    },
+    {
+      "name": "Quiz Drones",
+      "url": "https://apps.apple.com/pt/app/quiz-drones-a1-a3-a2-sts/id1507573123",
+      "scope": "EASA",
+      "status": "Acquisition lead; licensing and availability to verify",
+      "advertised_count": null
+    },
+    {
+      "name": "QuizVDS",
+      "url": "https://quizvds.it/",
+      "scope": "Europe",
+      "status": "Acquisition lead; licensing and availability to verify",
+      "advertised_count": null
+    },
+    {
+      "name": "Dronelix",
+      "url": "https://iocodo.com/apps/dronelix/practice/",
+      "scope": "International",
+      "status": "Acquisition lead; licensing and availability to verify",
+      "advertised_count": null
+    },
+    {
+      "name": "Airspace School",
+      "url": "https://airspaceschool.com/easa-a2",
+      "scope": "EASA",
+      "status": "Acquisition lead; licensing and availability to verify",
+      "advertised_count": null
+    },
+    {
+      "name": "DroneGuru",
+      "url": "https://droneguru.dk/",
+      "scope": "EASA",
+      "status": "Acquisition lead; licensing and availability to verify",
+      "advertised_count": null
+    },
+    {
+      "name": "Drohnenklar",
+      "url": "https://drohnenklar.com/pruefungsfragen",
+      "scope": "EASA",
+      "status": "Acquisition lead; licensing and availability to verify",
+      "advertised_count": null
+    },
+    {
+      "name": "Aviotex",
+      "url": "https://avioexams.com/drones/en/easa-a1-a3",
+      "scope": "EASA",
+      "status": "Acquisition lead; licensing and availability to verify",
+      "advertised_count": null
+    },
+    {
+      "name": "Drone Up",
+      "url": "https://www.droneup.es/test-drones-aesa/",
+      "scope": "Spain",
+      "status": "Acquisition lead; licensing and availability to verify",
+      "advertised_count": null
+    },
+    {
+      "name": "Clear107",
+      "url": "https://clear107.us/question-bank",
+      "scope": "FAA",
+      "status": "Acquisition lead; licensing and availability to verify",
+      "advertised_count": null
+    },
+    {
+      "name": "Dronelingo",
+      "url": "https://dronelingo.eu/",
+      "scope": "EASA",
+      "status": "Acquisition lead; licensing and availability to verify",
+      "advertised_count": null
+    }
+  ]
+}

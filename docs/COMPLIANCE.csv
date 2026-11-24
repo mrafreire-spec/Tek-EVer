@@ -1,0 +1,17 @@
+<PARSED TEXT FOR SHEET: 1 / 1 TABS
+TAB NAME: COMPLIANCE.csv>
+index,ID,Reference,Requirement or design goal,Prototype evidence,Status,Next evidence
+0,C-001,EU-02 / EU-04,Nine A1/A3 subject domains,curriculum/a1-a3.json,PARTIAL,Detailed AMC mapping and expert validation
+1,C-002,EU-02,40 questions and 75 percent threshold,app.js and tests/course.test.cjs,DEMO,Validated item bank and secured exam
+2,C-003,EU-02 / PT-01,Credential issuer and official scope,No official credentials issued,BOUNDARY,Written designation or referral to NAA
+3,C-004,EU-02,Official competency validity five years,Research register only,NOT IMPLEMENTED,External credential verification and expiry tracking
+4,C-005,Proposed assurance,Identity verification,,NOT IMPLEMENTED,Identity proofing and access tests
+5,C-006,Proposed assurance,Controlled version and sign-off,Course version 0.1.0,PARTIAL,Reviewer workflow and immutable approved version
+6,C-007,Proposed assurance,Secure training records,Local browser records only,DEMO,Server audit trail and integrity controls
+7,C-008,Proposed assurance,Exam integrity,Randomized options only,DEMO,Role-separated examination service and approved supervision
+8,C-009,EU-06,Specific category competence evidence,,NOT IMPLEMENTED,Authority-approved syllabus and assessor evidence
+9,C-010,UK-01,RAE PC requirements,,RESEARCH,Eligibility and CAP722B detailed mapping
+10,C-011,ICAO-01,International RPAS training framework,,RESEARCH,Licensed source review and national implementation
+11,C-012,NATO-01,Military governance and approved scope,,RESEARCH,Authorized authority and document control review
+12,C-013,DATA-01,Privacy and data protection,No PII required in demo,PARTIAL,Data inventory and retention policy
+13,C-014,Proposed assurance,Multi-tenant data isolation,,NOT IMPLEMENTED,RLS tests and independent security review

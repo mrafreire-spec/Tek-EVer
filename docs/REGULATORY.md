@@ -1,0 +1,23 @@
+# Regulatory baseline — 24 November 2026
+
+Preliminary research, not a legal opinion or statement of approval. Legal requirements depend on jurisdiction, operating category and approval scope. Verify current text, applicability and national implementation before release.
+
+| ID | Reference and scope | Initial conclusion | Public source |
+|---|---|---|---|
+| EU-01 | EU 2018/1139 Art 2 | Certain State activities under Member State responsibility excluded; assess scope and national arrangements separately. | https://eur-lex.europa.eu/eli/reg/2018/1139/oj/eng |
+| EU-02 | EU 2019/947, UAS.OPEN.020(4)(b), .040(3), .070 | A1/A3 online theory/exam: 40 MCQ, at least 75%, five-year official competency validity. Official issuer is competent authority or designated entity. | https://eur-lex.europa.eu/eli/reg_impl/2019/947/ |
+| EU-03 | EU 2019/945 | Product requirements and class markings; check current text. | https://eur-lex.europa.eu/eli/reg_del/2019/945/ |
+| EU-04 | AMC1 UAS.OPEN.020(4)(b) / .040(3) | Nine subject domains; draft mapping in curriculum file. Detailed paragraph-level review pending. | https://www.easa.europa.eu/en/regulations/unmanned-aircraft-systems-uas |
+| EU-05 | EASA Easy Access Rules June 2026 + AMC/GM Issue 1 Amendment 5 (20 Nov 2026) | Latest listed update concerns geographical-zone data and SORA 2.5; impact review outstanding, do not assume June compilation is latest. | https://www.easa.europa.eu/en/regulations/unmanned-aircraft-systems-uas |
+| EU-06 | 2019/947 Specific category, UAS.SPEC.050, STS Appendix 1 and Appendix 3 | Match training and practical assessment to authorization or declaration and national rules; no blanket authorization. | https://eur-lex.europa.eu/eli/reg_impl/2019/947/ |
+| EU-07 | 2024/1110 and related certified UAS package | Track scope and dates; verify applicable licensing and certification provisions with NAA. | https://www.easa.europa.eu/en/document-library/regulations/commission-implementing-regulation-eu-20241110 |
+| PT-01 | ANAC national route | A1/A3 online official course/exam via ANAC. Third-party preparatory theory is not a substitute or official credential. | https://www.anac.pt/vPT/Generico/drones/categoria_aberta/formacao_exames_certificados/Paginas/Formacao_ExameseCertificados.aspx |
+| PT-02 | ANAC public course catalogue | Compare module coverage; regulation, safety, human performance, general knowledge and procedures. | https://rp.anac.pt/course/index.php?categoryid=2&lang=en |
+| AT-01 | Austrian government / Austro Control | Free A1/A3 online training and exam through Dronespace. No evidence of general international ATO approval. | https://online-kurs.dronespace.at/einstieg/ ; https://eausweise.oesterreich.gv.at/de/themen/reisen_und_freizeit/Drohnen/Drohnenfuehrerschein |
+| UK-01 | UK CAA CAP 722B / RAE(PC) | Separate approval route with specific privileges and training manual requirements; verify applicable edition and eligibility. | https://www.caa.co.uk/data-and-publications/publications/documents/content/cap-722b/ |
+| ICAO-01 | Annex 1, Annex 6 Part IV (2nd ed Aug 2026), Annex 19, Doc 9868 | International certificated RPAS scope, personnel licensing, SMS and CBTA. Not universal accreditation; acquire licensed texts and verify applicability. | https://www.icao.int/UA/UASToolkit/Narrative-Training ; https://store.icao.int/en/annex-6-operation-of-aircraft-part-iv-remotely-piloted-aircraft-systems |
+| NATO-01 | STANAG 4670 / ATP-3.3.8.1 | Public catalogue identifies operator/pilot training standard. Full authorized edition, ratification/reservations and competent military authority approval required. No claim of compliance; no military operating curriculum in prototype. | https://quicksearch.dla.mil/qsdocdetails.aspx?ident_number=277342 ; https://www.nato.int/en/what-we-do/deterrence-and-defence/standardization |
+| DATA-01 | GDPR EU 2016/679 | Production training records require lawful processing, privacy design and retention policy. | https://eur-lex.europa.eu/eli/reg/2016/679/oj |
+
+## Gate for any recognition
+Identify legal entity, establishment, intended privileges, authority, operation/category and applicable rules. Obtain written feedback before designing authority examinations or issuing official credentials. Civil A1/A3 completion in this prototype is only informal practice. A1/A3 training is not authorization for a professional platform or specific operation. For military requirements, use an authorized governance and assurance team and approved controlled documents; do not mix controlled materials with the public civil library.
